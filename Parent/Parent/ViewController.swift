@@ -7,12 +7,20 @@
 //
 
 import UIKit
+import FirebaseDatabase
 
-class ViewController: UIViewController {
-
+class ViewController: UIViewController, UITableViewDelegate {
+    
+    
+    var ref: FIRDatabaseReference!
+    
+    @IBOutlet weak var tableView: UITableView!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        ref = FIRDatabase.database().reference()
     }
 
     override func didReceiveMemoryWarning() {
@@ -20,6 +28,9 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    
+    
+    
 
 }
 
