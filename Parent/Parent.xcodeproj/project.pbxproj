@@ -16,6 +16,8 @@
 		5910223C1DE8744100AC3109 /* ParentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5910223B1DE8744100AC3109 /* ParentTests.swift */; };
 		591022471DE8744100AC3109 /* ParentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 591022461DE8744100AC3109 /* ParentUITests.swift */; };
 		5917F2CF1DE89045000555F9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5917F2CE1DE89045000555F9 /* GoogleService-Info.plist */; };
+		5917F2D11DE89B5F000555F9 /* MachineNameCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5917F2D01DE89B5F000555F9 /* MachineNameCell.swift */; };
+		5917F2D31DE8A426000555F9 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5917F2D21DE8A426000555F9 /* DetailViewController.swift */; };
 		9A28EF1FC3DCF9485AE5B7FC /* Pods_ParentUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF3120138A758AFDDA4B4E7E /* Pods_ParentUITests.framework */; };
 		C23AEE7C79BAF2D2CF9DE2CB /* Pods_Parent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8657B1BDAEC6B4DA1ACFBFE /* Pods_Parent.framework */; };
 /* End PBXBuildFile section */
@@ -54,6 +56,8 @@
 		591022461DE8744100AC3109 /* ParentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentUITests.swift; sourceTree = "<group>"; };
 		591022481DE8744100AC3109 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5917F2CE1DE89045000555F9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5917F2D01DE89B5F000555F9 /* MachineNameCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MachineNameCell.swift; sourceTree = "<group>"; };
+		5917F2D21DE8A426000555F9 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		599A7B201DE8787400807F49 /* Parent.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Parent.entitlements; sourceTree = "<group>"; };
 		9B345F52B36C321FC9B258B3 /* Pods-ParentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParentTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ParentTests/Pods-ParentTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A61C6A315ADBB118741821B2 /* Pods-ParentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParentTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ParentTests/Pods-ParentTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -143,11 +147,13 @@
 				5917F2CE1DE89045000555F9 /* GoogleService-Info.plist */,
 				599A7B201DE8787400807F49 /* Parent.entitlements */,
 				591022261DE8744100AC3109 /* AppDelegate.swift */,
+				5917F2D01DE89B5F000555F9 /* MachineNameCell.swift */,
 				591022281DE8744100AC3109 /* ViewController.swift */,
 				5910222A1DE8744100AC3109 /* Main.storyboard */,
 				5910222D1DE8744100AC3109 /* Assets.xcassets */,
 				5910222F1DE8744100AC3109 /* LaunchScreen.storyboard */,
 				591022321DE8744100AC3109 /* Info.plist */,
+				5917F2D21DE8A426000555F9 /* DetailViewController.swift */,
 			);
 			path = Parent;
 			sourceTree = "<group>";
@@ -446,6 +452,8 @@
 			files = (
 				591022291DE8744100AC3109 /* ViewController.swift in Sources */,
 				591022271DE8744100AC3109 /* AppDelegate.swift in Sources */,
+				5917F2D11DE89B5F000555F9 /* MachineNameCell.swift in Sources */,
+				5917F2D31DE8A426000555F9 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
